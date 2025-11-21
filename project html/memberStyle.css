@@ -456,3 +456,21 @@ body {
   }
 
 }
+/* ====== NAVBAR SCROLL EFFECT ====== */
+.nav.scrolled {
+  background-color: #111; /* لون الخلفية عند التمرير */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 40px; /* يقلل البادينج شوية */
+  transition: all 0.3s ease; /* عشان التحويل يكون ناعم */
+}
+
+.nav.scrolled .logo-img {
+  width: 35px;
+  height: 35px;
+}
+
+.nav.scrolled .name,
+.nav.scrolled .links a,
+.nav.scrolled .actions button {
+  color: #fff; /* يغير لون النصوص إلى الأبيض */
+
